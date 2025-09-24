@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Harvest",
-  description: "Happy Harvest Game",
+  title: "Lua Lander",
+  description: "Lua Lander Game",
 };
 
 export default function RootLayout({

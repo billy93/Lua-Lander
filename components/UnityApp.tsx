@@ -5,10 +5,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 export default function UnityApp() {
   const { unityProvider, isLoaded, loadingProgression } = useUnityContext({
-    loaderUrl: "/Build/BuildWeb.loader.js",
-    dataUrl: "/Build/BuildWeb.data.unityweb",
-    frameworkUrl: "/Build/BuildWeb.framework.js.unityweb",
-    codeUrl: "/Build/BuildWeb.wasm.unityweb",
+    loaderUrl: "/Build/Build.loader.js",
+    dataUrl: "/Build/Build.data.unityweb",
+    frameworkUrl: "/Build/Build.framework.js.unityweb",
+    codeUrl: "/Build/Build.wasm.unityweb",
   });
 
   return (
